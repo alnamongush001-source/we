@@ -13,6 +13,9 @@
 
 .photo-section,
 .program-section,
+.maps-section,
+.wishes-section,
+.dress-section,
 .rsvp-section{
     position:relative;
     overflow:hidden;
@@ -21,6 +24,9 @@
 
 .photo-section::before,
 .program-section::before,
+.maps-section::before,
+.wishes-section::before,
+.dress-section::before,
 .rsvp-section::before{
     content:"";
     position:absolute;
@@ -43,13 +49,18 @@
     background-image:url('couple2.jpg');
     opacity:0.45;
 }
-    
-.dress-section::before{
-    background-image:url('couple2.jpg');
+
+.maps-section::before{
+    background-image:url('couple4.jpg');
     opacity:0.45;
 }
     
-    .wishes-section::before{
+.dress-section::before{
+    background-image:url('couple3.jpg');
+    opacity:0.45;
+}
+    
+.wishes-section::before{
     background-image:url('couple3.jpg');
     opacity:0.45;
 }
@@ -61,6 +72,9 @@
 
 .photo-section::after,
 .program-section::after,
+.maps-section::after,
+.dress-section::after,
+.wishes-section::after,
 .rsvp-section::after{
     content:"";
     position:absolute;
@@ -74,6 +88,9 @@
 
 .photo-section .container,
 .program-section .container,
+.maps-section .container,
+.dress-section .container,
+.wishes-section .container,
 .rsvp-section .container{
     position:relative;
     z-index:2;
@@ -411,7 +428,7 @@ section{
 </div>
 </section>
 
-<section class="dress section" >
+<section class="maps-section" >
 <div class="container">
 
 <div class="title">
